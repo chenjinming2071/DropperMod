@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dropper",
+  "name": "LiquidDropper",
+  "description": "LiquidDropper Mod.You can move liquid by Dropper.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://space.bilibili.com/362435288",
+  "updateUrl": "",
+  "authorList": ["chenjinming2071"],
+  "credits": "",
+  "logoFile": "a.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
