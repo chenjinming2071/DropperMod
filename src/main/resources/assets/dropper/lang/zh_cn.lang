@@ -1,2 +1,3 @@
 item.dropper.LiquidDropper.name=滴管
 itemGroup.LiquidDropper_tab=滴管
+dropper.sound.dropper_sound=滴管吸入液体

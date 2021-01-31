@@ -1,0 +1,7 @@
+{
+  "dropper_sound": {
+    "category": "block",
+    "subtitle": "dropper.sound.dropper_sound",
+    "sounds": ["dropper:droppersound"]
+  }
+}

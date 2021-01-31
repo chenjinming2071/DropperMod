@@ -1,2 +1,3 @@
 item.dropper.LiquidDropper.name=Dropper
 itemGroup.LiquidDropper_tab=LiquidDropper
+dropper.sound.dropper_sound=Dropper suction liquid
