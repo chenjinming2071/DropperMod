@@ -18,10 +18,10 @@ public class ItemDropper extends Item {
         this.setTranslationKey(ItemDropper.TRANSLATIONKEY);
     }
     @Override
-    public EnumActionResult onItemUse(EntityPlayer player, World world, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        if (world.isRemote) {
+    public EnumActionResult onItemUse(EntityPlayer player, World worldin, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+        if (worldin.isRemote) {
             System.out.println("test");
-            world.playSound(player, player.posX, player.posY, player.posZ, EventBusSubscriber.DROPPER_SOUND, SoundCategory.NEUTRAL, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
+            worldin.playSound(player, player.posX, player.posY, player.posZ, EventBusSubscriber.DROPPER_SOUND, SoundCategory.NEUTRAL, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
         }
         return EnumActionResult.SUCCESS;
     }
