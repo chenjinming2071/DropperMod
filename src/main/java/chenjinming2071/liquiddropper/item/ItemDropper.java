@@ -25,6 +25,7 @@ public class ItemDropper extends Item {
 
     public EnumActionResult onItemUse(EntityPlayer player, World worldin, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if (!worldin.isRemote) {
+            //TODO:修正储罐中液体显示错误
             NBTTagCompound nbt1 = new NBTTagCompound();
             NBTTagCompound nbt2 = new NBTTagCompound();
             TileEntity a = worldin.getTileEntity(pos);
