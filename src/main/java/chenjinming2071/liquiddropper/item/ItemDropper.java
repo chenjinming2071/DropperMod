@@ -27,9 +27,7 @@ public class ItemDropper extends Item {
         if (!worldin.isRemote) {
             //TODO:修正储罐中液体显示错误
             NBTTagCompound nbt1 = new NBTTagCompound();
-            NBTTagCompound nbt2 = new NBTTagCompound();
             TileEntity a = worldin.getTileEntity(pos);
-            System.out.println("tileentity:" + a);
             a.writeToNBT(nbt1);
             nbt1.setTag("Amount" , new NBTTagInt(0));
             nbt1.setTag("FluidName" , new NBTTagString(""));
